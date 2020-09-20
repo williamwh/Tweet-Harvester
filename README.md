@@ -1,2 +1,2 @@
-# Twitter-Querying
-The code in this repository enables querying twitter APIs to retrieve specific tweets needed for data analyses. After the tweets have been retrieved, they will be stored into CouchDB database automatically.
+# Tweet Harvester
+The code in this repository is used to query twitter APIs to retrieve tweets containing specific contents that are needed for certain data analyses. Once some tweets have been retrieved, they will be put and stored into a CouchDB database automatically. The docker file provided enables building docker images out of the python code, and the shell file can be used to deploy a number of harvester (docker instances) all at once 
